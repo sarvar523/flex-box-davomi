@@ -1,0 +1,68 @@
+body {
+  
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background: white;
+    padding: 20px;
+  }
+  
+  .flex-container {
+    background: rebeccapurple;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    height: 120px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-container div {
+    background: orange;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+  }
+  
+  /* Модификаторы поведения */
+  .column {
+    flex-direction: column;
+  }
+  
+  .wrap {
+    flex-wrap: wrap;
+  }
+  
+  .space-between {
+    justify-content: space-between;
+  }
+  
+  .space-around {
+    justify-content: space-around;
+  }
+  
+  .center {
+    justify-content: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .end {
+    justify-content: flex-end;
+  }
+  
